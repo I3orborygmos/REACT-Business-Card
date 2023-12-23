@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Kanit', sans-serif;
+  background-color: #1C1C1C;
+  padding: 20px
+  
+}
+/*Info*/
+
+.container {
+  display: fixed;
+  margin: auto;
+  background-color: #23252C;
+  width: 550px;
+  height: 880px;
+  border-radius: 5%;
+  overflow: hidden;
+}
+.info--pic {
+  width:550px;
+  height: 350px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%; 
+  object-fit:cover; 
+  
+}
+.info--name, .info--title {
+  text-align: center;
+  
+}
+.info--name {
+  color: white
+}
+.info--title {
+  color: #F2B711
+}
+.btn--mail{
+  background-color: white;
+  color: black;
+  padding: 10px 30px; 
+  border-radius: 10px
+}
+.btn--mail:hover{
+  background-color: #7D7D7D;
+}
+.btn--git{
+  background-color: #0E1626;
+  padding: 10px 30px;
+  margin-left: 35px; 
+  border-radius: 10px
+}
+.btn--git:hover{
+  background-color: #25325E;
+}
+.btn--link{
+  background-color: #5093E2;
+  padding: 10px 30px;
+  margin-left: 35px; 
+  margin-right: 45px;
+  border-radius: 10px
+}
+.btn--link:hover{
+  background-color: #25466B
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size:15px;
+  text-align: center;
+  display: block;
+  width: 120px;
+  align-content: cente;
+  justify-content: center;   
+}
+ul {
+  list-style: none;
+  display:flex;
+  justify-content: center;
+}
+/* Main */
+
+.main{
+  margin: 0px 40px 0px 60px ;
+  color: white;
+}
+h3, h4 {
+  font-size: 25px;
+  margin-bottom: -5px;
+}
+/* Light Dark Button */
+footer{
+  display: block;
+  background-color: #E8E8E8;
+  width: 550px;
+  height: 350px;
+  overflow: hidden;
+}
