@@ -5,7 +5,7 @@ export default function Main() {
         <main className="main">
         <h3> ABOUT </h3>
         <p>
-         I am a front end developer with a fun nack for minalmalism and simplicity. I try to keep up with security and the best practices, and I'm always looking for new ways to learn.
+         I am a frontend developer with a fun nack for minalmalism and simplicity. I try to keep up with security and the best practices, and I'm always looking for new ways to learn.
          </p>
          <h4> INTRESTS </h4>
          <p>
